@@ -10,9 +10,9 @@
 
 ### Prerequisites
 
-- `Python 3.6`
+- `Python 3.6`.
   Please note that the files in requirements.txt will only be downloaded in Python3.6 version, it does not work with later versions of python.
-- ffmpeg: `sudo apt-get install ffmpeg`
+- ffmpeg: `sudo apt-get install ffmpeg`.
   This code can be used only for Linux systems. However for Windows, ffmpeg must manually be downloaded from website and the environment variable must be set in the system. for more details refer this - https://www.gyan.dev/ffmpeg/builds/
 - git clone using the command `git clone https://github.com/Rudrabha/Wav2Lip.git`
 - Install necessary packages using `pip install -r requirements.txt`.
@@ -37,6 +37,8 @@ Replace <an-audio-source> with the path to the audio file.
 The result is saved (by default) in `results/result_voice.mp4`. You can specify it as an argument,  similar to several other available options. The audio source can be any file supported by `FFMPEG` containing audio data: `*.wav`, `*.mp3` or even a video file, from which the code will automatically extract the audio.
 
 Add `--pads` , `--nosmooth` , `--resize_factor` for better results.
+
+A suggestion to run this command in terminal as the progess can be seen, which is not possible in jupyter notebook.
 
 ## Result
 The Test dataset is [video](https://drive.google.com/file/d/14MITSafuVLFDyjfM153rXCITPuJNEFYA/view?usp=sharing) and [audio](https://drive.google.com/file/d/13Ck1RPsiWA5Bz8QQTjTLHWSeEm-qFAkv/view?usp=sharing)
